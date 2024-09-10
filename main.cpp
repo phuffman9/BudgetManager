@@ -1,5 +1,8 @@
 #include <iostream>
 #include <cstdlib>
+#include <vector>
+#include <tuple>
+#include <string>
 using namespace std;
 
 int main(){
