@@ -24,7 +24,7 @@ void Budget::printItems() {
         return;
     }
     for (int i = 0; i < purchases.size(); i++) {
-        std::cout << "Purchase #" << i + 1 << " " << std::get<0>(purchases[i]) << ", " << std::get<1>(purchases[i]) << std::endl;
+        std::cout << "Purchase #" << i + 1 << " " << std::get<0>(purchases[i]) << ", $" << std::get<1>(purchases[i]) << std::endl;
     }
     std::cout << "\n";
 }
