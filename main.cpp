@@ -66,7 +66,7 @@ int main() {
              break;
          case 'E':
              months[monthNum].clearPurchases();
-             cout << "Purchases have been cleared for month: " << monthNum + 1 << "\nRemaining budget has been set to: $" << months[monthNum].getRemaining();
+             cout << "Purchases have been cleared for month: " << monthNum + 1 << "\nRemaining budget has been set to: $" << months[monthNum].getRemaining() << endl;
              break;
          case 'Q':
              delete [] months;
